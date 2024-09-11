@@ -62,5 +62,3 @@ The task is to compute the edit distance between these sequences using a dynamic
 
 5. **Adjust Input File and Toggle Output**
    - Modify the `EditDistance.java` file to change the input file or toggle alignment output as needed.
-
-Make sure to replace `https://github.com/your-repository-url.git` and `your-repository-directory` with your actual repository URL and directory name. Adjust any additional details as required for your specific setup.
