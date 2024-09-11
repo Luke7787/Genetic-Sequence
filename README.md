@@ -24,6 +24,43 @@ The task is to compute the edit distance between these sequences using a dynamic
 - **Align two characters that mismatch**: 1
 - **Align two characters that match**: 0
 
-### Example
+## Implementation
 
-Here is an example of two possible alignments of the sequences:
+### Program Details
+
+- **Language**: Java
+- **File**: `EditDistance.java`
+- **Functionality**:
+  - Reads two strings of characters from a text file.
+  - Computes the edit distance using dynamic programming.
+  - Recovers and prints the optimal alignment along with individual penalties.
+
+
+## How to Run the Project
+
+1. **Clone the Repository**
+   - Clone the repository to your local machine:
+     ```bash
+     git clone https://github.com/your-repository-url.git
+     cd your-repository-directory
+     ```
+
+2. **Compile the Program**
+   - Ensure you have Java installed on your system. Compile the Java program using:
+     ```bash
+     javac EditDistance.java
+     ```
+
+3. **Run the Program**
+   - Execute the compiled program and provide an input file containing the DNA sequences:
+     ```bash
+     java EditDistance input.txt
+     ```
+
+4. **View Results**
+   - The output will include the edit distance and the alignment details. Results will be printed to the console.
+
+5. **Adjust Input File and Toggle Output**
+   - Modify the `EditDistance.java` file to change the input file or toggle alignment output as needed.
+
+Make sure to replace `https://github.com/your-repository-url.git` and `your-repository-directory` with your actual repository URL and directory name. Adjust any additional details as required for your specific setup.
