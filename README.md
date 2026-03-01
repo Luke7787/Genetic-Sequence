@@ -1,8 +1,6 @@
 # Edit Distance & Global Sequence Alignment
 
-## Introduction
-
-A project for CSC 349: Design and Analysis of Algorithms at California Polytechnic State University. This program computes the optimal sequence alignment of two DNA strings, introducing concepts from computational biology where computers are used to research biological systems. By calculating the edit distance between genetic sequences, the program helps in quantifying the similarity between sequences, which can be useful in various biological and computational applications.
+CSC 349 Design and Analysis of Algorithms project at Cal Poly implementing edit distance and global sequence alignment for DNA strings. Computes optimal alignments to measure similarity between genetic sequences.
 
 ## Problem Description
 
