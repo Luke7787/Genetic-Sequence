@@ -2,8 +2,6 @@
 
 CSC 349 Design and Analysis of Algorithms project at Cal Poly implementing edit distance and global sequence alignment for DNA strings. Computes optimal alignments to measure similarity between genetic sequences.
 
-## Problem Description
-
 ### Biology Review
 
 A genetic sequence is a string formed from a four-letter alphabet {Adenine (A), Thymine (T), Guanine (G), Cytosine (C)} of biological macromolecules known as DNA bases. Genes are sequences of DNA that contain the information needed to construct proteins. The human genome is the complete set of genes within an organism, and slight mutations in these genes can lead to variations. Comparing genetic sequences from different organisms can help determine their similarities and differences.
