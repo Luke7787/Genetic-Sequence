@@ -1,4 +1,4 @@
-# Edit Distance/Global Sequence Alignment
+# Edit Distance & Global Sequence Alignment
 
 ## Introduction
 
