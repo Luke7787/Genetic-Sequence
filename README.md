@@ -13,7 +13,7 @@ Given two DNA sequences:
 - Sequence 1: `AACAGTTACC`
 - Sequence 2: `TAAGGTCA`
 
-The task is to compute the edit distance between these sequences using a dynamic programming approach. Edit distance is a measure of similarity where penalties are assigned for insertions, deletions, and mismatches. The goal is to find the alignment with the minimal cost.
+Compute the edit distance between the sequences using dynamic programming. Edit distance measures similarity by assigning penalties for insertions, deletions, and mismatches, with the objective of finding the alignment that minimizes total cost.
 
 ### Penalty Table
 
