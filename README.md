@@ -4,13 +4,14 @@ CSC 349 Design and Analysis of Algorithms project at Cal Poly implementing edit 
 
 ### Biology Review
 
-A genetic sequence is a string formed from a four-letter alphabet {Adenine (A), Thymine (T), Guanine (G), Cytosine (C)} of biological macromolecules known as DNA bases. Genes are sequences of DNA that contain the information needed to construct proteins. The human genome is the complete set of genes within an organism, and slight mutations in these genes can lead to variations. Comparing genetic sequences from different organisms can help determine their similarities and differences.
+A genetic sequence is a string over the four-letter DNA alphabet: A (Adenine), T (Thymine), G (Guanine), and C (Cytosine). Genes are segments of DNA that encode the information required to build proteins. The genome represents the complete set of genetic material in an organism, and small mutations can introduce variations. Comparing DNA sequences helps measure similarity and identify biological relationships between organisms.
 
 ### The Problem
 
-Given two genetic sequences:
-- **Sequence 1**: `AACAGTTACC`
-- **Sequence 2**: `TAAGGTCA`
+Given two DNA sequences:
+
+- Sequence 1: `AACAGTTACC`
+- Sequence 2: `TAAGGTCA`
 
 The task is to compute the edit distance between these sequences using a dynamic programming approach. Edit distance is a measure of similarity where penalties are assigned for insertions, deletions, and mismatches. The goal is to find the alignment with the minimal cost.
 
