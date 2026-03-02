@@ -30,30 +30,22 @@ Compute the edit distance between the sequences using dynamic programming. Edit 
   - Computes edit distance using dynamic programming
   - Outputs the optimal alignment and total penalty
 
+## How to Run
 
-## How to Run the Project
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-repository-url.git
+cd your-repository-directory
+```
 
-1. **Clone the Repository**
-   - Clone the repository to your local machine:
-     ```bash
-     git clone https://github.com/your-repository-url.git
-     cd your-repository-directory
-     ```
+### 2. Compile
+```bash
+javac EditDistance.java
+```
 
-2. **Compile the Program**
-   - Ensure you have Java installed on your system. Compile the Java program using:
-     ```bash
-     javac EditDistance.java
-     ```
+### 3. Run
+```bash
+java EditDistance input.txt
+```
 
-3. **Run the Program**
-   - Execute the compiled program and provide an input file containing the DNA sequences:
-     ```bash
-     java EditDistance input.txt
-     ```
-
-4. **View Results**
-   - The output will include the edit distance and the alignment details. Results will be printed to the console.
-
-5. **Adjust Input File and Toggle Output**
-   - Modify the `EditDistance.java` file to change the input file or toggle alignment output as needed.
+The program outputs the edit distance and optimal alignment to the console.
