@@ -21,8 +21,6 @@ Compute the edit distance between the sequences using dynamic programming. Edit 
 - Mismatch: 1
 - Match: 0
 
-## Implementation
-
 ### Program Details
 
 - **Language**: Java
