@@ -15,11 +15,11 @@ Given two DNA sequences:
 
 Compute the edit distance between the sequences using dynamic programming. Edit distance measures similarity by assigning penalties for insertions, deletions, and mismatches, with the objective of finding the alignment that minimizes total cost.
 
-### Penalty Table
+### Penalty Scheme
 
-- **Insert a gap**: 2
-- **Align two characters that mismatch**: 1
-- **Align two characters that match**: 0
+- Gap insertion: 2
+- Mismatch: 1
+- Match: 0
 
 ## Implementation
 
