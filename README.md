@@ -23,12 +23,12 @@ Compute the edit distance between the sequences using dynamic programming. Edit 
 
 ### Program Details
 
-- **Language**: Java
-- **File**: `EditDistance.java`
-- **Functionality**:
-  - Reads two strings of characters from a text file.
-  - Computes the edit distance using dynamic programming.
-  - Recovers and prints the optimal alignment along with individual penalties.
+- Language: Java  
+- File: `EditDistance.java`  
+- Functionality:
+  - Reads two sequences from a text file
+  - Computes edit distance using dynamic programming
+  - Outputs the optimal alignment and total penalty
 
 
 ## How to Run the Project
