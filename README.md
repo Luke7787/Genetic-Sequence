@@ -48,4 +48,4 @@ javac EditDistance.java
 java EditDistance input.txt
 ```
 
-The program outputs the edit distance and optimal alignment to the console.
+The program outputs the edit distance and optimal alignment
